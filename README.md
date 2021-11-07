@@ -7,5 +7,5 @@ reactjs 17
 tailwind 2
 
 
-# # Run 'docker-compose up'
-# # open 'http://127.0.0.1'
+## Run 'docker-compose up'
+## open 'http://127.0.0.1'
