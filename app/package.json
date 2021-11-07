@@ -1,0 +1,42 @@
+{
+    "devDependencies": {
+        "@babel/preset-react": "^7",
+        "@symfony/stimulus-bridge": "^2",
+        "@symfony/webpack-encore": "^1.6.1",
+        "autoprefixer": "^10.4.0",
+        "core-js": "^3",
+        "glob-all": "^3",
+        "path": "^0.12",
+        "postcss": "^8.3.11",
+        "postcss-import": "^14.0.2",
+        "postcss-loader": "^6.2.0",
+        "purgecss-webpack-plugin": "^4",
+        "regenerator-runtime": "^0.13",
+        "stimulus": "^2",
+        "tailwindcss": "^2.2.19",
+        "webpack-notifier": "^1"
+    },
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "dev-server": "encore dev-server",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production --progress"
+    },
+    "dependencies": {
+        "@babel/plugin-proposal-class-properties": "^7",
+        "@babel/plugin-transform-runtime": "^7",
+        "@headlessui/react": "^1",
+        "@heroicons/react": "^1",
+        "axios": "^0.24",
+        "bip32": "^2",
+        "bitcoinjs-lib": "^5",
+        "ecpair": "^1.0.1",
+        "prop-types": "^15",
+        "react": "^17",
+        "react-dom": "^17",
+        "react-router-dom": "^6",
+        "reactstrap": "^9"
+    }
+}
