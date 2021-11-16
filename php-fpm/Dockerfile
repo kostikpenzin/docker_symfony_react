@@ -8,6 +8,6 @@ COPY --from=composer /usr/bin/composer /usr/bin/composer
 
 WORKDIR /var/www
 
-CMD composer install ; yarn encore dev ;  php-fpm
+CMD composer install; yarn install; yarn encore dev; php-fpm
 
 EXPOSE 9000
